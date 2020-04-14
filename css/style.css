@@ -1,5 +1,5 @@
 /*header menu*/
-.navigation-head {
+#navigation {
     width:100%;
     height:80px;
     padding:1%;
@@ -18,7 +18,7 @@
     position: absolute;
     right:0;
     letter-spacing: 0em;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
@@ -28,7 +28,7 @@
 }
 
 a {
-    color: orange;
+    color: #FADA1F;
     text-decoration: none;
     cursor: pointer;
     margin-right: 5px;
@@ -40,20 +40,35 @@ a {
 
 /*main content*/
 .content {
-    background-color: #2071AF;
     font-family: 'Arapey';
     color: white;
     font-size: 14px;
-    height: 400px;
-    letter-spacing: .10em;
+    /*letter-spacing: .10em;*/
+}
+
+h2 {
+    margin-left: 50px;
 }
 
 .heroImg {
-    height:600px;
+    height:300px;
+    background-color: #2071AF;
+    width: 120%;
     /*padding: 0; */
 }
 
 /* footer */
+#footer {
+    display: flex;
+}
+
+.footer-note {
+    margin-left: 50px;
+    display: flex;
+    font-family: 'Arapey';
+    font-weight: 400;
+}
+
 .social-media {
     padding: center;
     list-style: none;
